@@ -1,0 +1,108 @@
+<style>
+	body, header, nav, section, aside, footer {
+		display:block;
+		}
+	body{
+		width:1100px;
+		margin-left:auto;
+		margin-right:auto;
+		background:url("bgimage2.png");
+		}
+	header{
+		font-family:segoe ui;
+		font-size:40;
+		background-color:#4a83b8;
+		color:white;
+		text-align:center;
+		padding:20px;
+		height: auto;
+		}
+	#imgkiri{
+		float:left;
+		height: 60px;
+	}
+	#imgkanan{
+		float:right;
+		height: 60px;
+	}
+	nav{
+		line-height:20px;
+		background-color:#2d2d2d;
+		height:80%;
+		width:200px;
+		float:left;
+		}
+	div.li{
+		border-left: 5px solid #4a83b8;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		float:left;
+		font-family:Segoe ui;
+		font-weight: bold;
+		color:white;
+		width:97%;
+		padding-bottom: 5px;
+	}
+	div.li:hover{
+		background-color:#4a83b8;
+		text-align:center;
+	}
+	section{
+		font-family:calibri;
+		width:690px;
+		height:80%;
+		background-color:#f5f5f5a1;
+		float:left;
+		text-align:center;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	table:hover{
+		box-shadow:7px 7px 7px 0 grey;
+	}
+	aside{
+		line-height:20px;
+		font-family:Segoe ui;
+		font-size:12;
+		color:white;
+		background-color:#2d2d2d;
+		height:80%;
+		width:190px;
+		float:right;
+		text-align:justify;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	footer{
+		background-color:#4a83b8;
+		color:white;
+		clear:both;
+		text-align:center;
+		padding:5px;
+		font-weight: bold;
+		font-family: century gothic;
+	}
+	div.gallery {
+		margin: 5px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 217px;
+		height: 153px;
+		font-weight: bold;
+		font-family: century gothic;
+	}
+	div.gallery:hover {
+		border: 1px solid #777;
+		box-shadow:7px 7px 7px grey;
+		color: #ffffff;
+		background-color:#2d2d2d;
+	}
+	div.gallery img {
+		width: 100%;
+		height: 120px;
+	}
+	div.desc {
+		padding: 7px;
+		text-align: center;
+	}
+</style>
